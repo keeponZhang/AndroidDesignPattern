@@ -24,7 +24,6 @@ import huangshun.it.com.androiddesignpattern.ble.BleActivity;
 import huangshun.it.com.androiddesignpattern.brainview.BrainWaveActivity;
 import huangshun.it.com.androiddesignpattern.event.EventActivity;
 import huangshun.it.com.androiddesignpattern.file.FileActivity;
-import huangshun.it.com.androiddesignpattern.googlemap.MainMapActivity;
 import huangshun.it.com.androiddesignpattern.greendao.GreenDao3Activity;
 import huangshun.it.com.androiddesignpattern.gson.GsonActivity;
 import huangshun.it.com.androiddesignpattern.material.MaterialActivity;
@@ -251,7 +250,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, BleActivity.class));
                 break;
             case R.id.btn_google_map://谷歌地图
-                startActivity(new Intent(MainActivity.this, MainMapActivity.class));
                 break;
             case R.id.btn_green_dao://green dao3
                 startActivity(new Intent(MainActivity.this, GreenDao3Activity.class));
