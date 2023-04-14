@@ -11,13 +11,13 @@ public class Client {
         originDoc.setImages("图片1");
         originDoc.setImages("图片2");
         originDoc.setImages("图片3");
-        originDoc.showDocument();
+        originDoc.showDocument("originDoc");
         //以原始文档为原型,拷贝一份副本
         WordDocument cloneDoc = originDoc.clone();
-        cloneDoc.showDocument();
+        cloneDoc.showDocument("cloneDoc");
         cloneDoc.setText("这是修改过的Doc2文本");
         cloneDoc.setImages("哈哈");
-        cloneDoc.showDocument();
-        originDoc.showDocument();
+        cloneDoc.showDocument("cloneDoc");
+        originDoc.showDocument("originDoc");
     }
 }

@@ -48,8 +48,8 @@ public class WordDocument implements Cloneable {
     /**
      * 打印文档内容
      */
-    public void showDocument() {
-        System.out.println("---------- Word Content Start ----------");
+    public void showDocument(String tag) {
+        System.out.println(tag+"---------- Word Content Start ----------");
         System.out.println("Text : " + mText);
         System.out.println("Images List: ");
         for (String imageName : mImages) {
