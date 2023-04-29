@@ -17,11 +17,13 @@ public class Calculator {
         for (int i = 0; i < elements.length; i++) {
             switch (elements[i].charAt(0)) {
                 case '+':
+                    //符号的话把栈顶的元素先出栈，然后入栈
                     exp1 = mExpressionStack.pop();
                     exp2 = new NumExpression(Integer.valueOf(elements[++i]));
                     mExpressionStack.push(new AdditionExpression(exp1, exp2));
                     break;
                 default:
+                    //数字的话直接入栈
                     mExpressionStack.push(new NumExpression(Integer.valueOf(elements[i])));
                     break;
             }

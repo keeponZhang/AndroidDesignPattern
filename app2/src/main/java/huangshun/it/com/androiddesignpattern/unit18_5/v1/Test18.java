@@ -1,4 +1,7 @@
-package huangshun.it.com.androiddesignpattern.unit18_5;
+package huangshun.it.com.androiddesignpattern.unit18_5.v1;
+
+import huangshun.it.com.androiddesignpattern.unit18_5.v1.Lawyer;
+import huangshun.it.com.androiddesignpattern.unit18_5.v1.XiaoMin;
 
 /**
  * Created by hs on 2017/8/14.

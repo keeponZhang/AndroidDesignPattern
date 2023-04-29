@@ -1,4 +1,4 @@
-package huangshun.it.com.androiddesignpattern.unit18_5;
+package huangshun.it.com.androiddesignpattern.unit18_5.v1;
 
 /**
  * Created by hs on 2017/8/14.
